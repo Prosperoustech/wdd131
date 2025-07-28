@@ -1,0 +1,22 @@
+header{
+    background-color:rgb(17, 21, 69);
+    color: blue;
+ }
+h1{
+    padding: 20px;
+    margin: 50px;
+    color: white;
+    display: flex;
+    /* text-align: center;
+    justify-content: center; */
+}
+.highlight{
+    color: yellow;
+}
+nav{
+    background-color: rgb(39, 37, 37);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0.2% */
+}

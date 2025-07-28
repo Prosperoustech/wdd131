@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(69,68,68);
+    color: white;
+}
+
+h1{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+nav{Y
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height:50vh;
+}
+section{
+    background-color: #eee;
+    padding: 20px;
+}
+aside{
+    padding: 20px;
+}
+footer{
+    background-color: rgb(69, 68,68);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
