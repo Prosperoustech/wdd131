@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+figure img {
+    max-width: 100%;
+    width: 400px;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+.temple-album {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 1.5rem;
+}
+header {
+    padding-bottom: .5rem;
+    background-color: cornflowerblue;
+}
+
+/* Mobile View Hamburger */
+#menu {
+    /* display: block; */
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+}
+#menu::before {
+    content: "≡";
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.navigation a:hover, 
+.navigation a:active {
+    color: white;
+    background-color: black;
+    transition: 0.7s;
+}
+.show li {
+    display: block;
+}
+#menu.show::before {
+    content: "x";
+}   /* End of Hamburger code */
+
+h1 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+    padding: 30px;
+}
+.figure-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+figure {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    flex: 1 1 320px;
+}
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5rem;
+}
