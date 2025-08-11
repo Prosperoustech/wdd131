@@ -128,7 +128,7 @@ document.getElementById('small').addEventListener('click', () => {
 
 // Function definations
 function changeHeading(currentHead) {
-    document.querySelector("h1").textContent = currentHead;
+    document.querySelector("h2").textContent = currentHead;
 }
 
 function createTempleCard(filteredTemples) {

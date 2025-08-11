@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Picture album</title>
-    <meta name="description" content="Responsive picture album of temples">
-    <meta name="author" content="Prosper Bright">
-    <link rel="stylesheet" href="styles/filtered-temples.css">
-    <link rel="stylesheet" href="styles/filtered-temples-large.css">
-    <script defer src="scripts/filtered-temples.js"></script>
-</head>
-<body>
-    <header>
-        <div class="flex-header">
-            <h1 class="temple-album">Temple Album</h1>
-            <a id="menu"></a>
-        </div>
-        <nav>
-            <ul class="navigation">
-                <li><a id="home">Home</a></li>
-                <li><a id="old">Old</a></li>
-                <li><a id="new">New</a></li>
-                <li><a id="large">Large</a></li>
-                <li><a id="small">Small</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Home</h2>
-        <div id="temples-container"></div>
-    </main>
-    <footer>
-        <p>&copy; <span id="currentyear"></span> Prosper Bright from Nigeria</p>
-        <p id="lastModified"></p>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Picture album</title>
+        <meta name="description" content="Responsive picture album of temples">
+        <meta name="author" content="Prosper Bright">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/filtered-temples.css">
+        <link rel="stylesheet" href="styles/filtered-temples-large.css">
+        <script defer src="scripts/filtered-temples.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="flex-header">
+                <h1 class="temple-album">Temple Album</h1>
+                <a id="menu"></a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a id="home">Home</a></li>
+                    <li><a id="old">Old</a></li>
+                    <li><a id="new">New</a></li>
+                    <li><a id="large">Large</a></li>
+                    <li><a id="small">Small</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Home</h2>
+            <div id="temples-container"></div>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentyear"></span> Prosper Bright from Nigeria</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
 </html>
