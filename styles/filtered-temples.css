@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ubuntu";
+    scroll-behavior: smooth;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    position: relative;
+    padding: 40px 30px;
+    transition: 0.9s ease-in-out;
+}
+
+.temple-album {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+header {
+    background-color: cornflowerblue;
+}
+
+/* Mobile View Hamburger */
+#menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+}
+#menu::before {
+    content: "≡";
+}
+.navigation {
+    margin-top: 15px;
+    list-style: none;
+    text-align: center;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.navigation a:hover, 
+.navigation a:active {
+    color: white;
+    background-color: black;
+    transition: 0.7s;
+}
+.temple-album.hide {
+    display: none;
+}
+
+.show li {
+    display: block;
+}
+#menu.show::before {
+    content: "x";
+}   /* End of Hamburger code */
+
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+#temples-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.temple-card {
+    flex: 1 1 300px;
+    margin: 20px;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.temple-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: ease-in;
+}
+.temple-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.temple-card p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+.key {
+    color: purple;
+}
+footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+
+
