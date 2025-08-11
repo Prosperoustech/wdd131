@@ -83,10 +83,12 @@ main {
     margin: 0 auto;
 }
 
-h1 {
+h2 {
     text-align: center;
     padding: 30px;
+    font-size: 2em;
 }
+
 #temples-container {
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +111,7 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     transition: ease-in;
 }
-.temple-card h2 {
+.temple-card h3 {
     font-size: 1.5em;
     margin: 10px 0;
 }

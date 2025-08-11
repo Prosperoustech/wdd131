@@ -141,7 +141,7 @@ function createTempleCard(filteredTemples) {
         templeCard.classList.add('temple-card');
 
         // Create temple name
-        const templeName = document.createElement('h2');
+        const templeName = document.createElement('h3');
         templeName.textContent = temple.templeName;
 
         // Create temple location
@@ -150,7 +150,6 @@ function createTempleCard(filteredTemples) {
 
         // Create temple dedicated date
         const dedicated = document.createElement('p');
-        dedicated.classList.add('dedicated');
         dedicated.innerHTML = `<span class="key">DEDICATED</span>: ${temple.dedicated}`;
 
         // Create temple area
