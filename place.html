@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="name" content="Prosper Bright">
+    <meta name="description" content="a country or place where i've live, visited, or wish to visit.">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Madagascar</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 700px)">
+            <img src="images/hero-large.webp" alt="Lemur in Madagascar">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 587,041 sq km</li>
+                <li><strong>Population:</strong> 27,691,018</li>
+                <li><strong>Capital:</strong> Antananarivo</li>
+                <li><strong>Languages:</strong> Malagasy, French</li>
+                <li><strong>Currency:</strong> Malagasy Ariary</li>
+                <li><strong>Time Zone:</strong> UTC+3</li>
+                <li><strong>Calling Code:</strong> +261</li>
+                <li><strong>Internet TLD:</strong> .mg</li>
+              </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather-icon.svg" alt="weather icon" width="100" class="weather-icon">
+            <ul>
+                <li><strong>Temperature:</strong> <span id="temp">10</span> °C</li>
+                <li><strong>Conditions:</strong> Partly Cloudy</li>
+                <li><strong>Wind:</strong> <span id="wind">5</span> km/h</li>
+                <li><strong>Wind Chill:</strong> <span id="chill">--</span> °C</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Prosper Bright from Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
